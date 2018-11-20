@@ -30,7 +30,6 @@
 
 class walker {
  public:
-  
   /// the constructor of the class
   walker();
 
@@ -39,13 +38,13 @@ class walker {
 
   /// the callback function for sensor subscriber
   void sensorCallback(const sensor_msgs::LaserScan::ConstPtr& msg);
-  
+
   /// returns if an obstacle is ahead
   bool isClose();
 
  private:
-  /// the boolean value the indicates if an obstacle is ahead 
+  /// the boolean value the indicates if an obstacle is ahead
   bool isObstacle;
 };
 
-#endif
+#endif  // INCLUDE_WALKER_HPP_

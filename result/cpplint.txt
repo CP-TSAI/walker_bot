@@ -1,0 +1,7 @@
+cptsai@cptsai-P15FR5 ~/catkin_ws/src/ENPM808X/ROS/walker_bot/src (master) $ cpplint main.cpp walker.cpp 
+Done processing main.cpp
+Done processing walker.cpp
+
+cptsai@cptsai-P15FR5 ~/catkin_ws/src/ENPM808X/ROS/walker_bot/include (master) $ cpplint walker.hpp 
+Done processing walker.hpp
+

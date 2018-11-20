@@ -32,7 +32,7 @@ int main(int argc, char **argv) {
 
   /// the object for walker class
   walker simpleWalker;
-  
+
   /// the subscriber for laser
   ros::Subscriber sensor = n.subscribe<sensor_msgs::
           LaserScan>("/scan", 50, &walker::sensorCallback, &simpleWalker);
@@ -44,7 +44,6 @@ int main(int argc, char **argv) {
   ros::Rate loop_rate(10);
 
   while (ros::ok()) {
-    
     /// the velocity command for turtlebot
     geometry_msgs::Twist msg;
     msg.linear.x = 0.0;
