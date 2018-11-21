@@ -55,7 +55,7 @@ catkin_make --only-pkg-with-deps walker_bot
 - $ roslaunch walker_bot all.launch
 ```
 
-- if you want to use rosbag for the topics, the the **record** flag, the rosbag file would be saved in **result** file.
+- if you want to use rosbag for the topics, use the **record** flag, the rosbag file would be saved in **result** file.
 
 ```
 - $ roslaunch walker_bot all.launch record:=enable
