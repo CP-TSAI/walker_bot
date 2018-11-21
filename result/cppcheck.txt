@@ -1,0 +1,6 @@
+viki@ubuntu:~/catkin_ws/src/walker_bot$ cppcheck --enable=all --std=c++11 -I include/ --suppress=missingIncludeSystem $(find . -name *.cpp)
+Checking src/main.cpp...
+1/2 files checked 53% done
+Checking src/walker.cpp...
+2/2 files checked 100% done
+(information) Cppcheck cannot find all the include files (use --check-config for details)
