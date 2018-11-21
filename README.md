@@ -2,7 +2,7 @@
 
 
 ## Overview
-The repo presents a turtlebot that can repeatedly execute the following scenarios:
+The repo presents a turtlebot that can repeatedly execute the following scenarios:  
 (1) move forward until it reaches an obstacle (but not colliding),
 
 (2) then rotate in place until the way ahead is clear, 
